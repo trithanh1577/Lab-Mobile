@@ -1,5 +1,20 @@
 <resources>
-    <string name="app_name">ProductRoomApp</string>
-    <string name="lab_title">LAB 07A: Room Entity &amp; DAO</string>
-    <string name="lab_status">ProductEntity and ProductDao are ready.</string>
+    <string name="app_name">Lab 15 News Reader</string>
+    <string name="screen_title">HTTP News Reader</string>
+    <string name="screen_subtitle">JSONPlaceholder posts</string>
+    <string name="parse_with_gson">Load with Gson</string>
+    <string name="parse_manually">Load manually</string>
+    <string name="retry">Retry</string>
+    <string name="loading_message">Loading posts…</string>
+    <plurals name="loaded_message">
+        <item quantity="one">%1$d post loaded using %2$s</item>
+        <item quantity="other">%1$d posts loaded using %2$s</item>
+    </plurals>
+    <string name="gson_parser_name">Gson</string>
+    <string name="manual_parser_name">JSONArray</string>
+    <string name="error_no_network">Unable to connect. Check your Internet connection and try again.</string>
+    <string name="error_invalid_data">The server returned data that could not be read.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="post_number">Post #%1$d</string>
+    <string name="user_number">User %1$d</string>
 </resources>
